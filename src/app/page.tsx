@@ -32,7 +32,7 @@ export default function Home() {
               <li><a href="https://calendly.com/ross-brannigan/30min?month=2024-04" className="text-white hover:text-yellow-400 transition-colors duration-300">Schedule A Call</a></li>
               <li><a href="marketplace" className="text-white hover:text-yellow-400 transition-colors duration-300">Marketplace</a></li>
               <li><a href="cv" className="text-white hover:text-yellow-400 transition-colors duration-300">CV</a></li>
-              <li><a href="Media" className="text-white hover:text-yellow-400 transition-colors duration-300">Media</a></li>
+              <li><a href="media" className="text-white hover:text-yellow-400 transition-colors duration-300">Media</a></li>
               <li><a href="locations" className="text-white hover:text-yellow-400 transition-colors duration-300">Locations</a></li>
               <li><a href="about" className="text-white hover:text-yellow-400 transition-colors duration-300">About</a></li>
               <li><a href="blog" className="text-white hover:text-yellow-400 transition-colors duration-300">Blog</a></li>
@@ -112,7 +112,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li className="mb-0.5">
-                    <a href="Media" className="hover:text-white text-xs">
+                    <a href="media" className="hover:text-white text-xs">
                       Media
                     </a>
                   </li>
