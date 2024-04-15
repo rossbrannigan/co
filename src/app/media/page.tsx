@@ -129,7 +129,7 @@ const MediaPage = () => {
 
 
 
-      <main className="container mx-auto py-8">
+<main className="container mx-auto py-8">
   {/* Instagram Section */}
   <h1 className="text-2xl font-semibold text-gray-800 mb-4">Exciting Instagram Post | April 15, 2024</h1>
   <div className="mb-4">
@@ -191,7 +191,6 @@ const MediaPage = () => {
   </div>
   {/* End Instagram Embed */}
 </main>
-
 
 
       {/* Footer */}
