@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Head from 'next/head';
-import { GoogleTagManager } from '@next/third-parties/google';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import Head from "next/head";
+import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function Home() {
   return (
@@ -112,7 +112,7 @@ export default function Home() {
               </a>
             </li>
             <li className="mb-0.5">
-              <a href="CV" className="hover:text-white text-xs">
+              <a href="cv" className="hover:text-white text-xs">
                 CV
               </a>
             </li>
