@@ -39,8 +39,8 @@ export default function Home() {
         <li><a href="locations" className="text-white hover:text-yellow-400 transition-colors duration-300">Locations</a></li>
         <li><a href="about" className="text-white hover:text-yellow-400 transition-colors duration-300">About</a></li>
         <li><a href="blog" className="text-white hover:text-yellow-400 transition-colors duration-300">Blog</a></li>
-        {/* Changed button text to "Get Ahead" and modified button styles */}
-        <li><a href="/hire-us" className="text-black bg-white py-2 px-4 rounded-full hover:bg-yellow-400 hover:text-black transition-colors duration-300">Get Ahead</a></li>
+        {/* Changed button text to "Contact" and modified button styles */}
+        <li><a href="/contact" className="text-black bg-white py-2 px-4 rounded-full hover:bg-yellow-400 hover:text-black transition-colors duration-300">Contact Ross</a></li>
       </ul>
     </nav>
   </div>
