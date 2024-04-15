@@ -12,7 +12,7 @@ export default function Home() {
         {/* Optimized Title Tag and Meta Description */}
         <title>Ross Brannigan | Digital Marketing, Product & Aviation Management Expert</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Welcome to the homepage of Ross Brannigan, your go-to expert for digital marketing and aviation management leadership. Learn more about our services and contact Ross today!" />
+        <meta name="description" content="Welcome to the homepage of Ross Brannigan, your go-to expert for digital marketing,product and aviation management leadership. Learn more about our services and contact Ross today!" />
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Ross Brannigan | Digital Marketing & Aviation Management Expert" />
         <meta property="og:description" content="Welcome to the homepage of Ross Brannigan, your go-to expert for digital marketing and aviation management leadership. Learn more about our services and contact Ross today!" />
@@ -33,7 +33,7 @@ export default function Home() {
               <li><a href="marketplace" className="text-white hover:text-yellow-400 transition-colors duration-300">Marketplace</a></li>
               <li><a href="cv" className="text-white hover:text-yellow-400 transition-colors duration-300">CV</a></li>
               <li><a href="media" className="text-white hover:text-yellow-400 transition-colors duration-300">Media</a></li>
-              <li><a href="locations" className="text-white hover:text-yellow-400 transition-colors duration-300">Locations</a></li>
+              <li><a href="locations" className="text-white hover:text-yellow-400 transition-colors duration-300">Location</a></li>
               <li><a href="about" className="text-white hover:text-yellow-400 transition-colors duration-300">About</a></li>
               <li><a href="blog" className="text-white hover:text-yellow-400 transition-colors duration-300">Blog</a></li>
               {/* Changed button text to "Get Ahead" and modified button styles */}
