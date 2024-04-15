@@ -12,9 +12,6 @@ const MediaPage = () => {
         <title>Ross Brannigan Media | Videos, Interviews, and Updates</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Explore Ross Brannigan's media page for the latest videos, interviews, and updates. Stay informed and engaged with Ross's media content today!" />
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
       </Head>
 
       {/* Header */}
@@ -110,25 +107,27 @@ const MediaPage = () => {
           </div>
         </div>
       </main>
+ {/* Twitter Section */}
+<main className="container mx-auto py-8">
+  {/* Twitter Section */}
+  <div className="mb-2">
+    <h1 className="text-2xl font-semibold text-gray-800">Eisenhower Business Matrix | April 13, 2024</h1>
+    <div className="mb-1">
+      <p className="text-sm text-gray-600">Date: April 13, 2024</p>
+      <p className="text-sm text-gray-600">Source: Twitter</p>
+      <p className="text-sm text-gray-600">Topic: Eisenhower Business Matrix</p>
+    </div>
+  </div>
+  <div className="relative" style={{ paddingTop: "56.25%", marginBottom: "-1.5rem" }}>
+    <blockquote className="twitter-tweet" style={{ margin: "0" }}>
+      <p lang="en" dir="ltr">This simple matrix is logically comprehensive (and ubiquitous in business contexts): <a href="https://t.co/aS2JRcTUx5">https://t.co/aS2JRcTUx5</a> <a href="https://t.co/GUhteqmtTd">pic.twitter.com/GUhteqmtTd</a></p>&mdash; MIT Sloan Management Review (@mitsmr) <a href="https://twitter.com/mitsmr/status/1778952011246927876?ref_src=twsrc%5Etfw">April 13, 2024</a>
+    </blockquote>
+  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+</main>
 
-      <main className="container mx-auto py-8" role="main">
-        <article>
-          <div className="border rounded-lg shadow-lg p-4 mb-8">
-            <header>
-              <h1 className="text-2xl font-semibold text-gray-800 mb-4">Media</h1>
-              <p className="text-sm text-gray-600 mb-1">Date: April 15, 2024</p>
-              <p className="text-sm text-gray-600 mb-1">Source: Twitter</p>
-              <p className="text-sm text-gray-600 mb-4">Topic: Eisenhower Business Matrix</p>
-            </header>
-            <section className="relative" style={{ width: "100%", minHeight: "410px" }}>
-              <blockquote className="twitter-tweet">
-                <p lang="en" dir="ltr">This simple matrix is logically comprehensive (and ubiquitous in business contexts): <a href="https://t.co/aS2JRcTUx5">https://t.co/aS2JRcTUx5</a> <a href="https://t.co/GUhteqmtTd">pic.twitter.com/GUhteqmtTd</a></p>&mdash; MIT Sloan Management Review (@mitsmr) <a href="https://twitter.com/mitsmr/status/1778952011246927876?ref_src=twsrc%5Etfw">April 13, 2024</a>
-              </blockquote>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </section>
-          </div>
-        </article>
-      </main>
+
+
 
       <main className="container mx-auto py-8">
   {/* Instagram Section */}
@@ -136,7 +135,7 @@ const MediaPage = () => {
   <div className="mb-4">
     <p className="text-sm text-gray-600 mb-1">Date: April 15, 2024</p>
     <p className="text-sm text-gray-600 mb-1">Source: Instagram</p>
-    <p className="text-sm text-gray-600 mb-4">Topic: Exciting Instagram Post</p>
+    <p className="text-sm text-gray-600 mb-4">Topic: IE Alumni Conference APAC 2024</p>
   </div>
   {/* Instagram Embed */}
   <div className="relative" style={{ maxWidth: "540px", margin: "0 auto" }}>
