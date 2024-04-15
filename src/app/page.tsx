@@ -51,7 +51,7 @@ export default function Home() {
 
   {/* Placeholder for Ross intro */}
   <div>
-    <img src="/ross-intro.gif" alt="Ross Standing" />
+    <img src="/ross-intro-2.gif" alt="Ross Standing" />
   </div>
 
 
