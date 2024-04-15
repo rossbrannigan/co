@@ -35,10 +35,10 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        {/* Ensure metadata.description is always a string */}
         <meta name="description" content={metadata.description || ''} />
         <meta name="robots" content="follow, index" />
-        <title>{metadata.title}</title>
+        {/* Ensure metadata.title is always a string */}
+        <title>{metadata.title || ''}</title>
         <link rel="stylesheet" href={inter.href} />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
