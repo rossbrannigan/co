@@ -49,6 +49,9 @@ const ContactPage = () => {
         </div>
       </header>
 
+             {/* Google Analytics - can go anywhere on main body of page - https://nextjs.org/docs/messages/next-script-for-ga */}
+      <GoogleAnalytics gaId="G-R17NJV1L4N" />
+
       {/* Main Content - Submission Form */}
       <main className="container mx-auto py-8 flex flex-wrap justify-center gap-8">
         {/* Form Section */}
