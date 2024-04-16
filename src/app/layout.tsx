@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Ross Brannigan | Leading Digital Business Results & Innovation",
   description: "Digital leader obsessed with commercial results, product innovation & customer satisfaction | IE MBA | APAC | ex-Etihad, ex-Airberlin, ex-Facebook",
 };
-
+{/* Important for Google Analytics to work - visit https://nextjs.org/docs/messages/next-script-for-ga */}
 export default function RootLayout({
   children,
 }: Readonly<{
