@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleTagManager } from '@next/third-parties/google'
-
-
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,12 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-    <main>{children}</main>
-      <GoogleTagManager gtmId="G-R17NJV1L4N"/>
-
+        <main>{children}</main>
+        <GoogleTagManager gtmId="G-R17NJV1L4N"/>
+        <GoogleAnalytics gaId="G-XYZ" />
       </body>
     </html>
   );
 }
-
 
