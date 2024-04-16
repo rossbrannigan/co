@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main>{children}</main>
         <GoogleTagManager gtmId="G-R17NJV1L4N"/>
-        <GoogleAnalytics gaId="G-XYZ" />
+        <GoogleAnalytics gaId="G-R17NJV1L4N" />
       </body>
     </html>
   );

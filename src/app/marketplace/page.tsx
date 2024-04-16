@@ -75,6 +75,9 @@ const HireUsPage: React.FC = () => {
         </nav>
       </header>
 
+      {/* Google Analytics - https://nextjs.org/docs/messages/next-script-for-ga */}
+      <GoogleAnalytics gaId="G-R17NJV1L4N" />
+
       {/* Main Content */}
       <main className="container mx-auto py-8">
         {/* Web3 Services Section */}
