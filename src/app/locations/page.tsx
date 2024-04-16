@@ -1,15 +1,14 @@
+import React from "react";
 import Image from "next/image";
-import Head from 'next/head';
-import { GoogleMapsEmbed } from '@next/third-parties/google'
-import { GoogleTagManager } from '@next/third-parties/google';
-import { GoogleAnalytics } from '@next/third-parties/google'
+import Head from "next/head";
+import { GoogleMapsEmbed } from "@next/third-parties/google";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const LocationsPage: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Head>
-            <Head>
-                          {/* Add Google Analytics tracking tag */}
+        {/* Add Google Analytics tracking tag */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-R17NJV1L4N"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -21,12 +20,12 @@ const LocationsPage: React.FC = () => {
             `,
           }}
         />
-      <GoogleAnalytics gaId="G-R17NJV1L4N" />
-      <GoogleTagManager gtmId="G-R17NJV1L4N" /> 
-        <title>Global management consulting | Alpha Digital Group</title>
+        <title> Ross Brannigan | Locations </title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Alpha Digital Group - Global management consulting" />
-
+        <meta
+          name="description"
+          content="Ross Brannigan Locations"
+        />
       </Head>
 
       {/* Header */}
