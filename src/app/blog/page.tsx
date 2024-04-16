@@ -23,8 +23,20 @@ const BlogPage: React.FC = () => {
     <div className="bg-gray-100 min-h-screen">
       {/* Title */}
       <Head>
-        <GoogleAnalytics gaId="G-25Y0G3QQE6" />
-        <GoogleTagManager gtmId="G-25Y0G3QQE6" /> 
+                    {/* Add Google Analytics tracking tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R17NJV1L4N"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-R17NJV1L4N');
+            `,
+          }}
+        />
+        <GoogleAnalytics gaId="G-R17NJV1L4N" />
+        <GoogleTagManager gtmId="G-R17NJV1L4N" /> 
         <title>{"Web3 Consulting & Services | Alpha Digital Group"}</title>
         <meta name="description" content="Explore Alpha Digital Group's Web3 consulting and services. We specialize in blockchain, DeFi, NFTs, and more. Transform your business with our expert guidance." />
         <link rel="icon" href="/favicon.ico" />

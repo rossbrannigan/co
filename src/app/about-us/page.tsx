@@ -7,9 +7,21 @@ const AboutPage: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Head>
-      <GoogleAnalytics gaId="G-25Y0G3QQE6" />
-      <GoogleTagManager gtmId="G-25Y0G3QQE6" /> 
-        <title>About Ross Brannigan | Alpha Digital Group</title>
+                          {/* Add Google Analytics tracking tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R17NJV1L4N"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-R17NJV1L4N');
+            `,
+          }}
+        />
+      <GoogleAnalytics gaId="G-R17NJV1L4N" />
+      <GoogleTagManager gtmId="G-R17NJV1L4N" /> 
+        <title>About Ross Brannigan | Location </title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Alpha Digital Group - Global management consulting" />
       </Head>
