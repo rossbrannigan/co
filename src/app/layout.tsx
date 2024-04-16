@@ -3,9 +3,9 @@ use client // This line marks the component as Client-side
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
-import { useEffect } from 'react';
-import mixpanel from 'mixpanel';
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+import { useEffect } from "react";
+import mixpanel from "mixpanel";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     mixpanel.init(process.env.NEXT_PUBLIC_MIXPANEL_TOKEN);
 
     // Track page view with specific URL
-    mixpanel.track('Page View', { 'url': window.location.pathname });
+    mixpanel.track("Page View", { "url": window.location.pathname });
   }, []);
 
   return (
