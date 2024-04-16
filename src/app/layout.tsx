@@ -1,25 +1,25 @@
-// This line marks the component as Client-side (using Next.js syntax)
-use client;
-
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import { useEffect } from "react";
-import mixpanel from "mixpanel";
+import mixpanel from "mixpanel-browser";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+import { Inter } from "next/font/google";
+import "./globals.css"; // Retaining the import of globals.css
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ross Brannigan | Leading Digital Business Results & Innovation",
-  description: "Digital leader obsessed with commercial results, product innovation & customer satisfaction | IE MBA | APAC | ex-Etihad, ex-Airberlin, ex-Facebook",
+  description:
+    "Digital leader obsessed with commercial results, product innovation & customer satisfaction | IE MBA | APAC | ex-Etihad, ex-Airberlin, ex-Facebook",
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   useEffect(() => {
-    // Initialize Mixpanel with environment variable
+    // Initialize Mixpanel with your Mixpanel token
     mixpanel.init(process.env.NEXT_PUBLIC_MIXPANEL_TOKEN);
-
     // Track page view with specific URL
     mixpanel.track("Page View", { url: window.location.pathname });
   }, []);
