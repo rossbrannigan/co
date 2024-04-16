@@ -7,6 +7,12 @@ const AboutPage: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Head>
+            {/* Add Tinybird tracking tag */}
+      <script defer
+  src="https://unpkg.com/@tinybirdco/flock.js"
+  data-host="https://api.tinybird.co"
+  data-token="p.eyJ1IjogIjcyN2QzNThmLTgzM2EtNGU0Ni04NGFlLTQxMjlhZWQ4YWI5NiIsICJpZCI6ICIzYjA3M2NmOC0wMzkwLTRjZDktOGEzYi0xM2M2MGQ0OTU2YTIiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.4SOYVArl4YUoPVpT0Z1QCJ8R4gjdc1v6WmoSd-r0rFk"
+/>
                           {/* Add Google Analytics tracking tag */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-R17NJV1L4N"></script>
         <script
