@@ -58,6 +58,9 @@ export default function Home() {
   </div>
 </header>
 
+       {/* Google Analytics - https://nextjs.org/docs/messages/next-script-for-ga */}
+      <GoogleAnalytics gaId="G-R17NJV1L4N" />
+
 {/* Main content */}
       <main className="container mx-auto py-8 px-4">
         <section className="mb-8">

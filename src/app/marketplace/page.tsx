@@ -38,6 +38,9 @@ const HireUsPage: React.FC = () => {
         <meta name="description" content="Alpha Digital Group - Global management consulting" />
       </Head>
 
+      {/* Google Analytics */}
+      <GoogleAnalytics gaId="G-XYZ" />
+
       {/* Header */}
       <header className="bg-yellow-400 shadow-lg" style={{ backgroundColor: '#bdff03' }}>
         <div className="container mx-auto py-4 flex items-center justify-between">
