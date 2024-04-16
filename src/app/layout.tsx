@@ -1,4 +1,4 @@
-use client // This line marks the component as Client-side
+use client; // This line marks the component as Client-side
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
