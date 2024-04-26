@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* globals.css or app.css */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+/* Import any other Swiper modules' CSS here */
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,3 +33,8 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Tailwind CSS should be at the end */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

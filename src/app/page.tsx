@@ -67,10 +67,23 @@ export default function Home() {
       {/* Main Content */}
       <main className="container mx-auto py-8">
 
-        {/* Placeholder for Ross intro */}
-        <div>
-          <img src="/ross-intro-2.gif" alt="Ross Standing" />
-        </div>
+
+      Copy code{/* Placeholder for Ross intro */}
+<div>
+  <img src="/ross-intro-2.gif" alt="Ross Standing" className="mb-8 w-full" />
+</div>
+
+{/* Vince Lombardi Quote */}
+<div className="bg-gray-800 py-12">
+  <div className="max-w-3xl mx-auto px-4">
+    <blockquote className="text-center text-xl md:text-2xl lg:text-3xl text-gray-300 font-semibold leading-loose">
+      <p>"The only place success comes before work is in the dictionary."</p>
+    </blockquote>
+    <div className="mt-6 text-center text-gray-400 italic font-medium">
+      ― Vince Lombardi
+    </div>
+  </div>
+</div>
 
         <div className="container mx-auto py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

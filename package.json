@@ -9,13 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@next-tools/dynamic": "^0.0.11",
     "@next/third-parties": "^14.2.1",
+    "flowbite-react": "^0.8.0",
+    "framer-motion": "^11.1.1",
+    "fullscreen.js": "^0.3.0",
     "mixpanel": "^0.18.0",
     "mixpanel-browser": "^2.49.0",
     "next": "^14.2.1",
+    "preline": "^2.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swiper": "^11.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",
